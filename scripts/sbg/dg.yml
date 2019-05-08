@@ -1,5 +1,5 @@
 datasets:
- - type: table # metadata information for hive table with realmId columns and hive partition details
+ - type: databbase # metadata information for hive table with realmId columns and hive partition details
    Name: sbg_dwh_v2.trans_clickstream # db.schema.table format, for json it will be in similar way
    deleteManagementType: Ads_Managed # Valid values are Ads_Managed, Delete_Replicated, Delete_EventApi
    fetchMAnagementType: Ads_Managed # Valid values are Retention_Exception, Ingestion_Exception, Ads_Managed
